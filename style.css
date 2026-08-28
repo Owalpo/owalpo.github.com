@@ -105,28 +105,6 @@ a:visited {
   font-weight:700;
   text-shadow:2px 2px 0px #46063d
 }
-.gold {
-  color:#d6ce5a;
-  font-weight:700;
-  text-shadow:2px 2px 0px #312e04
-}
-.computer {
-  color:#6589f5;
-  font-weight:700;
-  outline-color:#ccc;
-  outline-width:2px;
-  text-shadow:2px 2px 0px #162a68
-}
-.safe {
-  color:#3ef13e;
-  font-weight:700;
-  text-shadow:2px 2px 0px #043b04
-}
-.scary {
-  color:#f13e3e;
-  font-weight:700;
-  text-shadow:2px 2px 0px #3b0404
-}
 .subtext {
   font-weight:lighter;
   font-style:italic;
