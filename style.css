@@ -2,7 +2,7 @@
   font-family:"PixelOperator";
   src: url(PixelOperator.ttf) format('truetype');
   font-weight: normal;
-  font-style: normal;
+  font-style: bold;
 }
 
 .top-nav {
@@ -12,21 +12,20 @@
   font-size:32px;
   margin-top:24px;
   margin-left:auto;
-  margin-right:auto
+  margin-right:auto;
 }
 .welcome{
 	display:flex;
 	width:30%;
 	justify-content:center;
-	margin-top:24px;
+	margin-top:16px;
 	margin-left:auto;
 	margin-right:auto;
-	font-size:32px;
-	padding:-0px 17px;
-	font-family:PixelOperator}
+	font-size:48px;
+	padding:-0px 17px;}
 	
 .info {
-	width:800px;margin:16px auto auto;font-size:32px;padding:0 17px}
+	max-width:700px;margin:16px auto auto;font-size:32px;padding:0 17px}
 .innergrid {
 	display:flex;
 	flex-direction:column;
@@ -38,7 +37,7 @@
 	border-color:#79B89B;
 	border-style:solid;
 	margin:8px;
-	padding:2px 9px;
+	padding:8px 8px;
 	background:url(images/pittbridge.png),#ECC27F;
 	background-size:32px;
     background-blend-mode:soft-light;
@@ -55,11 +54,13 @@
 	background:url(images/pittbridge.png),#ECC27F;
 	background-size:32px;
     background-blend-mode:soft-light;
+	font-weight:700;
 }
 .header img{
 	width: 100%;
-	height: 100%;
+	max-height: 300px;
 	object-fit: cover;
+	object-position: center;
 	border-style: solid;
 }
 .bottom-socials{
@@ -70,11 +71,11 @@
 	margin:12px auto auto}
 .grid-container {
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: repeat(2, minmax(250px,1fr));
 	gap: 20px;
 	border-color:#79B89B;
 	border-style:solid;
-	width:800px;
+	max-width:800px;
 	margin:16px auto auto;
 	font-size:24px;
 	padding:0 17px;
@@ -119,6 +120,17 @@ a:visited {
 .underline {
   text-decoration:underline
 }
+.images {
+  filter: grayscale(50%);
+  max-width: 180px; 
+  margin: 0 auto;
+  object-position: center;
+  border-color:#79B89B;
+  border-style:solid;
+}
+h2 {
+    text-align: center;
+}
 html {
   background:url(images/background.png),#3C8F69;
   background-attachment:fixed;
@@ -127,5 +139,6 @@ html {
 body {
   font-family:PixelOperator;
   text-shadow: 2px 2px #C86C94;
+  font-weight:900;
   color:#FFF9F1
 }
