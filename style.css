@@ -8,7 +8,8 @@
 .top-nav {
   width:fit-content;
   display:flex;
-  justify-content:center;
+  flex-wrap: wrap;
+  justify-content: center;
   font-size:32px;
   margin-top:24px;
   margin-left:auto;
@@ -16,7 +17,7 @@
 }
 .welcome{
 	display:flex;
-	width:30%;
+	width:40%;
 	justify-content:center;
 	margin-top:16px;
 	margin-left:auto;
@@ -25,22 +26,29 @@
 	padding:-0px 17px;}
 	
 .info {
-	max-width:700px;margin:16px auto auto;font-size:32px;padding:0 17px}
+	display:flex;
+	max-width:800px;
+	justify-content:center;
+	margin:16px auto auto;
+	font-size:32px;
+	padding:0 17px;
+	align-items: center;
+}
 .innergrid {
 	display:flex;
 	flex-direction:column;
 	justify-content:center;
 	align-items: center;
 	text-align: center;
-	min-height: 300px;
 	background-color:#ECC27F;
 	border-color:#79B89B;
 	border-style:solid;
 	margin:8px;
-	padding:8px 8px;
+	padding:12px 8px;
 	background:url(images/pittbridge.png),#ECC27F;
 	background-size:32px;
     background-blend-mode:soft-light;
+	border-radius: 25px;
 	}
 .header{
 	display:flex;
@@ -49,6 +57,7 @@
 	align-items: center;
 	border-color:#79B89B;
 	border-style:solid;
+	border-radius: 25px;
 	margin:8px;
 	padding:2px 9px;
 	background:url(images/pittbridge.png),#ECC27F;
@@ -58,20 +67,22 @@
 }
 .header img{
 	width: 100%;
-	max-height: 300px;
+	max-height: 400px;
 	object-fit: cover;
 	object-position: center;
 	border-style: solid;
+	border-radius: 25px;
 }
 .bottom-socials{
-	width:fit-content;
 	display:flex;
-	justify-content:center;
+    justify-content:center;
+	max-width: 700px;
 	font-size:32px;
-	margin:12px auto auto}
+	margin:12px auto auto;
+}
 .grid-container {
 	display: grid;
-	grid-template-columns: repeat(2, minmax(250px,1fr));
+	grid-template-columns: repeat(2, 1fr);
 	gap: 20px;
 	border-color:#79B89B;
 	border-style:solid;
@@ -82,17 +93,43 @@
 	background:url(images/pittbridge.png),#ECC27F;
 	background-size:32px;
     background-blend-mode:soft-light;
+	border-radius: 25px;
 	}
 
 .window {
+  text-align: center;
   font-family: PixelOperator;
   background:url(images/pittbridge.png),#ECC27F;
   border-color:#79B89B;
   border-style:solid;
   margin:8px;
-  padding:2px 9px;
+  padding:2px 15px;
   background-size:32px;
   background-blend-mode:soft-light;
+  border-radius: 25px;
+}
+.list{
+	display:flex;
+	flex-direction: column;
+	margin: auto;
+	justify-content:center;
+	align-items: center;
+	background:url(images/pittbridge.png),#ECC27F;
+	border-color:#79B89B;
+    border-style:solid;
+	border-radius: 25px;
+	margin:8px;
+	padding: 4px 8px 8px 8px;
+	background-size:32px;
+    background-blend-mode:soft-light;
+}
+.list img{
+    max-width: 200px;
+	filter: grayscale(50%);
+	border-color:#79B89B;
+    border-style:solid;
+	border-radius: 25px;
+	
 }
 .windownobg {
   background-color:#08000c;
@@ -122,14 +159,20 @@ a:visited {
 }
 .images {
   filter: grayscale(50%);
-  max-width: 180px; 
+  max-width: 200px; 
   margin: 0 auto;
   object-position: center;
   border-color:#79B89B;
   border-style:solid;
+  border-radius: 25px;
 }
+
 h2 {
     text-align: center;
+	margin: 10px;
+}
+p{
+	margin: auto;
 }
 html {
   background:url(images/background.png),#3C8F69;
