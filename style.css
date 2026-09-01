@@ -70,8 +70,11 @@
 	max-height: 400px;
 	object-fit: cover;
 	object-position: center;
-	border-style: solid;
-	border-radius: 25px;
+	border-color:#ECC27F;
+    border-style:solid;
+    border-radius: 25px;
+    border-width: 5px;
+	margin-top: 5px;
 }
 .bottom-socials{
 	display:flex;
@@ -125,10 +128,10 @@
 }
 .list img{
     max-width: 200px;
-	filter: grayscale(50%);
-	border-color:#79B89B;
+	border-color:#ECC27F;
     border-style:solid;
-	border-radius: 25px;
+    border-radius: 25px;
+    border-width: 5px;
 	
 }
 .windownobg {
@@ -158,13 +161,12 @@ a:visited {
   text-decoration:underline
 }
 .images {
-  filter: grayscale(50%);
   max-width: 200px; 
-  margin: 0 auto;
   object-position: center;
-  border-color:#79B89B;
+  border-color:#ECC27F;
   border-style:solid;
   border-radius: 25px;
+  border-width: 5px;
 }
 
 h2 {
