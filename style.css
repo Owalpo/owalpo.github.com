@@ -91,7 +91,7 @@
 	border-style:solid;
 	max-width:800px;
 	margin:16px auto auto;
-	font-size:24px;
+	font-size:32px;
 	padding:0 17px;
 	background:url(images/pittbridge.png),#ECC27F;
 	background-size:32px;
@@ -158,6 +158,9 @@ p{
 	margin: auto;
 	padding: 4px 4px 4px 4px;
 }
+img{
+	margin: 4px;
+}
 html {
   background:url(images/background.png),#3C8F69;
   background-attachment:fixed;
@@ -165,7 +168,7 @@ html {
 }
 body {
   font-family:PixelOperator;
-  text-shadow: 3px 2px #C86C94;
+  text-shadow: 3px 2px #9e476d;
   font-weight:900;
   color:#FFF9F1
 }
