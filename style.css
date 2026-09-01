@@ -136,6 +136,13 @@ a:visited {
   border-color:#ECC27F;
   box-shadow: 1px 1px 5px black;
 }
+.title{
+  color:#C86C94;
+  text-shadow:2px 2px 0px #110955;
+  padding-top: 16px; 
+  padding-left: 16px; 
+  padding-right:16px;
+}
 
 .infoimages {
   max-width: 60%; 
