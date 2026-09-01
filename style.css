@@ -1,8 +1,8 @@
 @font-face {
   font-family:"PixelOperator";
-  src: url(PixelOperator.ttf) format('truetype');
-  font-weight: normal;
-  font-style: bold;
+  src: url(PixelOperatorHB.ttf) format('truetype');
+  font-weight: 200;
+  font-style: normal;
 }
 
 .top-nav {
@@ -63,7 +63,6 @@
 	background:url(images/pittbridge.png),#ECC27F;
 	background-size:32px;
     background-blend-mode:soft-light;
-	font-weight:700;
 }
 .header img{
 	width: 100%;
@@ -129,14 +128,12 @@
 a:link,
 a:visited {
   color:#C86C94;
-  font-weight:600;
   text-shadow:2px 2px 0px #110955
 }
 .images {
   max-width: 80%; 
   height: auto;
   border-color:#ECC27F;
- 
   box-shadow: 1px 1px 5px black;
 }
 
@@ -152,11 +149,13 @@ a:visited {
 h2 {
     text-align: center;
 	margin: 10px;
+	font-weight: 600;
 }
 p{
 	text-align: center;
 	margin: auto;
 	padding: 4px 4px 4px 4px;
+	font-weight: 600;
 }
 img{
 	margin: 4px;
@@ -169,6 +168,6 @@ html {
 body {
   font-family:PixelOperator;
   text-shadow: 3px 2px #9e476d;
-  font-weight:900;
-  color:#FFF9F1
+  color:#f7f1e9;
+  font-weight: 600;
 }
