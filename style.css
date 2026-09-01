@@ -120,26 +120,11 @@
 	background:url(images/pittbridge.png),#ECC27F;
 	border-color:#79B89B;
     border-style:solid;
-	border-radius: 25px;
+	border-radius: 50px;
 	margin:8px;
 	padding: 4px 8px 8px 8px;
 	background-size:32px;
     background-blend-mode:soft-light;
-}
-.list img{
-    max-width: 200px;
-	border-color:#ECC27F;
-    border-style:solid;
-    border-radius: 25px;
-    border-width: 5px;
-	
-}
-.windownobg {
-  background-color:#08000c;
-  border-color:#ccc;
-  border-style:solid;
-  margin:8px;
-  padding:2px 9px
 }
 a:link,
 a:visited {
@@ -147,26 +132,21 @@ a:visited {
   font-weight:600;
   text-shadow:2px 2px 0px #110955
 }
-.gilded {
-  color:#e942d3;
-  font-weight:700;
-  text-shadow:2px 2px 0px #46063d
-}
-.subtext {
-  font-weight:lighter;
-  font-style:italic;
-  font-size:16px
-}
-.underline {
-  text-decoration:underline
-}
 .images {
-  max-width: 200px; 
-  object-position: center;
+  max-width: 80%; 
+  height: auto;
+  border-color:#ECC27F;
+ 
+  box-shadow: 1px 1px 5px black;
+}
+
+.infoimages {
+  max-width: 60%; 
+  height: auto;
   border-color:#ECC27F;
   border-style:solid;
-  border-radius: 25px;
-  border-width: 5px;
+  border-radius: 50px;
+  border-width: 5px; 
 }
 
 h2 {
@@ -174,7 +154,9 @@ h2 {
 	margin: 10px;
 }
 p{
+	text-align: center;
 	margin: auto;
+	padding: 4px 4px 4px 4px;
 }
 html {
   background:url(images/background.png),#3C8F69;
@@ -183,7 +165,7 @@ html {
 }
 body {
   font-family:PixelOperator;
-  text-shadow: 2px 2px #C86C94;
+  text-shadow: 3px 2px #C86C94;
   font-weight:900;
   color:#FFF9F1
 }
