@@ -177,4 +177,7 @@ body {
   text-shadow: 3px 2px #9e476d;
   color:#fcfcfc;
   font-weight: 800;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
