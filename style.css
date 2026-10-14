@@ -128,7 +128,7 @@
 a:link,
 a:visited {
   color:#C86C94;
-  text-shadow:2px 2px 0px #110955
+  text-shadow:1px 1px 0px #110955
 }
 .images {
   max-width: 80%; 
@@ -138,7 +138,7 @@ a:visited {
 }
 .title{
   color:#C86C94;
-  text-shadow:2px 2px 0px #110955;
+  text-shadow:1px 1px 0px #110955;
   padding-top: 16px; 
   padding-left: 16px; 
   padding-right:16px;
@@ -174,8 +174,8 @@ html {
 }
 body {
   font-family:PixelOperator;
-  text-shadow: 3px 2px #9e476d;
-  color:#fcfcfc;
+  text-shadow: 1px 1px #000000;
+  color:#3C8F69;
   font-weight: 800;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
